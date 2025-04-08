@@ -37,7 +37,7 @@ After preprocessing the data we can split the data ( 80 : 20 ratio for train tes
 In addition a Deep Neural Network was also used with 4 hidden layers (arbitary choice) using ReLu activation function in the hidden layers, and sigmoid in the final layer since its binary classification . As for the loss function binary cross entropy was used, along with adam optimizer
 
 
-# 3) Loading and Training
+# 3) Model evaluation
 For each of these algorithms used the trained model has to be evaluated using a confusion matrix which shows perfomance metrics like Accuracy, Recall, Precision and F1 score.
 
 In order to evaluate the perfomance of the trained neural network a confusion matrix was used along with Accuracy vs epochs diagram
